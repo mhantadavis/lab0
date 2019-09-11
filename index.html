@@ -1,10 +1,30 @@
 <html>
     <head>
         <title>My Webpage</title>
+        <link rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div class="wrapper">
-        	<h1>Front page</h1>
-        	<img src="images/headshot.JPG">
+    	<div class="container">
+		  <div class="row">
+			    <div class="col-sm">
+					<a class="btn btn-primary" href="profile.html" role="button">Profile</a>
+			    </div>
+			    <div class="col-sm">
+			    	<a class="btn btn-primary" href="music.html" role="button">Music</a>
+			    </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="container-fluid no-padding">
+			<div class="row">
+				<div class="col-md-12">
+			    	<img src="images/headshot.JPG" class="img-responsive"/>
+			    </div>
+			</div>
+		</div>
     </body>
 </html>

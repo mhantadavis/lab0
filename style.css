@@ -23,7 +23,7 @@ img {
 }
 
 #profilecolor {
-    background-color: yellow;
+    background-color: #7FDBFF;
 }
 
 .button{
@@ -35,4 +35,12 @@ img {
 .button:hover {
   background-color: #4CAF50; /* Green */
   color: white;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 50% ;
 }
